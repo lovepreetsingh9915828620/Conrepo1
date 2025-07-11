@@ -20,3 +20,7 @@ resource "azurerm_resource_group" "rg2" {
   name     = "devops2"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "rg3" {
+  name     = "devops1"
+  location = "West Europe"
+}
